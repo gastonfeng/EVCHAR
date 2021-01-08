@@ -1,0 +1,13 @@
+* source DIODE
+R_R8         DO N01097  100k  
+R_R9         N01078 OUT  100k  
+R_R3         DO N00329  22k  
+V_V2         N00329 0 55.2Vdc
+R_R6         N00900 D+  10k  
+R_R7         N01078 D+  100k  
+D_D5         N004090 N004091 D1N4148 
+D_D1         D+ N004090 D1N4148 
+R_R10         0 N004091  5.1k  
+X_U1A         N01097 N01078 N00900 0 OUT LM358
+V_V1         N00900 0 5Vdc
+R_R4         0 DO  1k  

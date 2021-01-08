@@ -1,0 +1,1249 @@
+(PCB CHARGER4820
+ (description
+  (timeStamp "2001 03 12 16 31 25")
+  (program "CAPTURE.EXE" (Version "9.10.157 CIS"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "48V电动车充电器")
+  (date "Tuesday, March 13, 2001")
+  (document "2000.12.22")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component LM358
+   (place U1
+    (property 
+     ("PCB Footprint" DIP.100/8/W.300/L.450)
+     (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL")
+     (timestamp 000005CB)
+     ("Source Package" LM358)
+     (Implementation LM358)
+     (Value LM358))))
+  (component R_var
+   (place R26
+    (property 
+     ("PCB Footprint" P1G)
+     (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}")
+     (timestamp 00000989)
+     ("Source Package" R_var)
+     (SET 0.5)
+     (Value 10k)))
+   (place R27
+    (property 
+     ("PCB Footprint" P1G)
+     (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}")
+     (timestamp 0000098C)
+     ("Source Package" R_var)
+     (SET 0.5)
+     (Value 1.5k)))
+   (place R15
+    (property 
+     ("PCB Footprint" P1G)
+     (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}")
+     (timestamp 000005D6)
+     ("Source Package" R_var)
+     (SET 0.5)
+     (Value 1k))))
+  (component IRFP460
+   (place M1
+    (property 
+     ("PCB Footprint" TO218AA)
+     (PSpiceTemplate "M^@REFDES %d %g %s %s @MODEL")
+     (timestamp 00000B7C)
+     ("Source Package" IRFP460)
+     (Implementation IRFP460)
+     (Value IRFP460)))
+   (place M2
+    (property 
+     ("PCB Footprint" TO218AA)
+     (PSpiceTemplate "M^@REFDES %d %g %s %s @MODEL")
+     (timestamp 00000B7E)
+     ("Source Package" IRFP460)
+     (Implementation IRFP460)
+     (Value IRFP460))))
+  (component 120NQ045
+   (place D15
+    (property 
+     ("PCB Footprint" "D-67")
+     (PSpiceTemplate "X^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 00006221)
+     ("Source Package" 120NQ045)
+     (Implementation D120NQ045)
+     (Value FEP30DP)))
+   (place D4
+    (property 
+     ("PCB Footprint" "D-67")
+     (PSpiceTemplate "X^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 000002BD)
+     ("Source Package" 120NQ045)
+     (Implementation D120NQ045)
+     (Value FEP30DP))))
+  (component L
+   (place L2
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 00004F2C)
+     ("Source Package" L)
+     (Value 20uH)))
+   (place L3
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 00005D15)
+     ("Source Package" L)
+     (Value 20uH)))
+   (place L4
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 00004F37)
+     ("Source Package" L)
+     (Value 20uH)))
+   (place L5
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 000061EE)
+     ("Source Package" L)
+     (Value 10uH)))
+   (place L6
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 000061AA)
+     ("Source Package" L)
+     (Value 10uH)))
+   (place L7
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 000062CA)
+     ("Source Package" L)
+     (Value 10uH)))
+   (place L8
+    (property 
+     ("PCB Footprint" L2012C)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 000061EC)
+     ("Source Package" L)
+     (Value 10uH))))
+  (component D1N4148
+   (place D12
+    (property 
+     ("PCB Footprint" "DO-35")
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 0000098E)
+     (COMPONENT 1N4148)
+     ("Source Package" D1N4148)
+     (Implementation D1N4148)
+     (Value D1N4148)))
+   (place D13
+    (property 
+     ("PCB Footprint" "DO-35")
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 00000851)
+     (COMPONENT 1N4148)
+     ("Source Package" D1N4148)
+     (Implementation D1N4148)
+     (Value D1N4148)))
+   (place D14
+    (property 
+     ("PCB Footprint" "DO-35")
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 00000853)
+     (COMPONENT 1N4148)
+     ("Source Package" D1N4148)
+     (Implementation D1N4148)
+     (Value D1N4148)))
+   (place D7
+    (property 
+     ("PCB Footprint" "DO-35")
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 000005CD)
+     (COMPONENT 1N4148)
+     ("Source Package" D1N4148)
+     (Implementation D1N4148)
+     (Value D1N4148))))
+  (component 1N4376
+   (place D10
+    (property 
+     ("PCB Footprint" "DO-7")
+     (PSpiceTemplate "D^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 00000188)
+     ("Source Package" 1N4376)
+     (Implementation D1N4376)
+     (Value 1N4148)))
+   (place D11
+    (property 
+     ("PCB Footprint" "DO-7")
+     (PSpiceTemplate "D^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 0000018A)
+     ("Source Package" 1N4376)
+     (Implementation D1N4376)
+     (Value 1N4148)))
+   (place D8
+    (property 
+     ("PCB Footprint" "DO-7")
+     (PSpiceTemplate "D^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 00000186)
+     ("Source Package" 1N4376)
+     (Implementation D1N4376)
+     (Value 1N4148)))
+   (place D9
+    (property 
+     ("PCB Footprint" "DO-7")
+     (PSpiceTemplate "D^@REFDES %A %K @MODEL ?AREA/@AREA/")
+     (timestamp 0000018C)
+     ("Source Package" 1N4376)
+     (Implementation D1N4376)
+     (Value 1N4148))))
+  (component C_elect
+   (place C21
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00004239)
+     ("Source Package" C_elect)
+     (Value 10uF)))
+   (place C22
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00004E00)
+     ("Source Package" C_elect)
+     (Value 1n)))
+   (place C23
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 000062FC)
+     ("Source Package" C_elect)
+     (Value 100oF)))
+   (place C6
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 000029BB)
+     ("Source Package" C_elect)
+     (Value 2000uF)))
+   (place C15
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 000029F6)
+     ("Source Package" C_elect)
+     (Value 2000uF)))
+   (place C17
+    (property 
+     ("PCB Footprint" PLP3970SMD/AA)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00002C59)
+     ("Source Package" C_elect)
+     (Value 220uF))))
+  (component D1N5404
+   (place D1
+    (property 
+     ("PCB Footprint" P26702)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 00001908)
+     (COMPONENT 1N5404)
+     ("Source Package" D1N5404)
+     (Implementation D1N5404)
+     (Value D1N5404)))
+   (place D2
+    (property 
+     ("PCB Footprint" P26702)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 00001812)
+     (COMPONENT 1N5404)
+     ("Source Package" D1N5404)
+     (Implementation D1N5404)
+     (Value D1N5404)))
+   (place D5
+    (property 
+     ("PCB Footprint" P26702)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 000018A6)
+     (COMPONENT 1N5404)
+     ("Source Package" D1N5404)
+     (Implementation D1N5404)
+     (Value D1N5404)))
+   (place D6
+    (property 
+     ("PCB Footprint" P26702)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+     (timestamp 00001845)
+     (COMPONENT 1N5404)
+     ("Source Package" D1N5404)
+     (Implementation D1N5404)
+     (Value D1N5404))))
+  (component SG1525
+   (place U4
+    (property 
+     (DEADTIME 1us)
+     (PERIOD 20us)
+     ("PCB Footprint" DIP.100/16/W.300/L.900)
+     (PSpiceTemplate "X^@REFDES %ERR- %ERR+ %OSC %CT %START %COMP %SHUT %OUTA %GND %C %OUTB %VIN %VREF @MODEL \\n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME")
+     (timestamp 00003F78)
+     ("Source Package" SG1525)
+     (Implementation SG1525)
+     (Value SG1525))))
+  (component 2SA1020
+   (place Q3
+    (property 
+     ("PCB Footprint" TO226AB)
+     (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/")
+     (timestamp 0000017E)
+     ("Source Package" 2SA1020)
+     (Implementation Q2SA1020)
+     (Value 8550)))
+   (place Q4
+    (property 
+     ("PCB Footprint" TO226AB)
+     (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/")
+     (timestamp 00000180)
+     ("Source Package" 2SA1020)
+     (Implementation Q2SA1020)
+     (Value 8550))))
+  (component R
+   (place R25
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0000085C)
+     ("Source Package" R)
+     (Value 100k)))
+   (place R1
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00001F03)
+     ("Source Package" R)
+     (Value 0.05)))
+   (place R30
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000FEF)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R2
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000CB3)
+     ("Source Package" R)
+     (Value 100k)))
+   (place R3
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000ECC)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R4
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000C37)
+     ("Source Package" R)
+     (Value 10)))
+   (place R33
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000F09)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R34
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000F8D)
+     ("Source Package" R)
+     (Value 1000k)))
+   (place R5
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00001132)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R35
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00003971)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R36
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00003871)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R7
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00001090)
+     ("Source Package" R)
+     (Value 1000k)))
+   (place R37
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0000386E)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R8
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000010C6)
+     ("Source Package" R)
+     (Value 1000k)))
+   (place R38
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00003874)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R9
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000CB9)
+     ("Source Package" R)
+     (Value 100k)))
+   (place R39
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00003B87)
+     ("Source Package" R)
+     (Value 10k)))
+   (place R40
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00003FD8)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R41
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000063DC)
+     ("Source Package" R)
+     (Value 0.005)))
+   (place R42
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000064A8)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R43
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000064AC)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R11
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000005CF)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R12
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000DEA)
+     ("Source Package" R)
+     (Value 100)))
+   (place R14
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000005D2)
+     ("Source Package" R)
+     (Value 1k)))
+   (place R16
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000E6F)
+     ("Source Package" R)
+     (Value 100)))
+   (place R17
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 000005A4)
+     ("Source Package" R)
+     (Value 22k)))
+   (place R19
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000859)
+     ("Source Package" R)
+     (Value 100k)))
+   (place R20
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000856)
+     ("Source Package" R)
+     (Value 100k)))
+   (place R21
+    (property 
+     ("PCB Footprint" RC05)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 00000A52)
+     ("Source Package" R)
+     (Value 10k))))
+  (component 2SC4760
+   (place Q1
+    (property 
+     ("PCB Footprint" "2-21F2A")
+     (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/")
+     (timestamp 00000182)
+     ("Source Package" 2SC4760)
+     (Implementation Q2SC4760)
+     (Value 8050)))
+   (place Q2
+    (property 
+     ("PCB Footprint" "2-21F2A")
+     (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/")
+     (timestamp 00000184)
+     ("Source Package" 2SC4760)
+     (Implementation Q2SC4760)
+     (Value 8050))))
+  (component C
+   (place C24
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00006662)
+     ("Source Package" C)
+     (Value 10n)))
+   (place C25
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0000669F)
+     ("Source Package" C)
+     (Value 10n)))
+   (place C26
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 000067E7)
+     ("Source Package" C)
+     (Value 100n)))
+   (place C1
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00000005)
+     ("Source Package" C)
+     (Value 1n)))
+   (place C3
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00000058)
+     ("Source Package" C)
+     (Value 10u/100V)))
+   (place C8
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 000005D8)
+     ("Source Package" C)
+     (Value 1n)))
+   (place C19
+    (property 
+     ("PCB Footprint" CK05)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0000386C)
+     ("Source Package" C)
+     (Value 1n)))))
+ (library
+  (image R
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB")
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|"))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image R_var
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB")
+    (PSpiceTemplate "R^@REFDES %1 %2 {@VALUE*@SET+.001}")
+    (SET 0.5))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image C_elect
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB")
+    (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|"))
+   (pin 999 1
+    (property 
+     (pinname +)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 4))))
+  (image C
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB")
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image LM358
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\OPAMP.OLB")
+    (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL"))
+   (pin 999 3
+    (property 
+     (pinname +_A)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 2
+    (property 
+     (pinname "-_A")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 8
+    (property 
+     (pinname V+)
+     (pintype 7)
+     (FLOAT Error)))
+   (pin 999 4
+    (property 
+     (pinname "V-")
+     (pintype 7)
+     (FLOAT Error)))
+   (pin 999 1
+    (property 
+     (pinname OUT_A)
+     (pintype 2)
+     (FLOAT Error)))
+   (pin 999 5
+    (property 
+     (pinname +_B)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 6
+    (property 
+     (pinname "-_B")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 7
+    (property 
+     (pinname OUT_B)
+     (pintype 2)
+     (FLOAT Error))))
+  (image SG1525
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\SWIT_REG.OLB")
+    (PERIOD 1ms)
+    (DEADTIME 1us)
+    (PSpiceTemplate "X^@REFDES %ERR- %ERR+ %OSC %CT %START %COMP %SHUT %OUTA %GND %C %OUTB %VIN %VREF @MODEL \\n+ PARAMS: PERIOD=@PERIOD DEADTIME=@DEADTIME"))
+   (pin 999 15
+    (property 
+     (pinname VIN)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname "ERR-")
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname ERR+)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname VREF)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname COMP)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname SHUT)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname OUTA)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname OUTB)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname C)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname OSC)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname START)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname CT)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname SYNC)
+     (pintype 0)
+     (FLOAT Unmodeled)))
+   (pin 999 6
+    (property 
+     (pinname RT)
+     (pintype 0)
+     (FLOAT Unmodeled)))
+   (pin 999 7
+    (property 
+     (pinname DIS)
+     (pintype 0)
+     (FLOAT Unmodeled))))
+  (image L
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB")
+    (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image IRFP460
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\PWRMOS.OLB")
+    (PSpiceTemplate "M^@REFDES %d %g %s %s @MODEL"))
+   (pin 999 3
+    (property 
+     (pinname s)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname g)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname d)
+     (pintype 4))))
+  (image 1N4376
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\DIODE.OLB")
+    (PSpiceTemplate "D^@REFDES %A %K @MODEL ?AREA/@AREA/"))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 0)
+     (FLOAT UniqueNet)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 2)
+     (FLOAT UniqueNet))))
+  (image D1N4148
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\DIODE.OLB")
+    (COMPONENT 1N4148)
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image D1N5404
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\DIODE.OLB")
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ~AREA|?AREA/@AREA/||@AREA|")
+    (COMPONENT 1N5404))
+   (pin 999 2
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image 120NQ045
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\DIODE.OLB")
+    (PSpiceTemplate "X^@REFDES %A %K @MODEL ?AREA/@AREA/"))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 0)
+     (FLOAT UniqueNet)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 2)
+     (FLOAT UniqueNet))))
+  (image 2SC4760
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\JPWRBJT.OLB")
+    (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/"))
+   (pin 999 2
+    (property 
+     (pinname C)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname B)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname E)
+     (pintype 4))))
+  (image 2SA1020
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\PSPICE\\JPWRBJT.OLB")
+    (PSpiceTemplate "Q^@REFDES %C %B %E @MODEL ?AREA/@AREA/"))
+   (pin 999 2
+    (property 
+     (pinname C)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname B)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname E)
+     (pintype 4)))))
+ (network
+  (net N035621
+   (pins
+     R12-1
+    (property 
+     ("BiasValue Current" 0A))
+     C24-2))
+  (net N036951
+   (pins
+     C25-2 R16-1
+    (property 
+     ("BiasValue Current" 0A))))
+  (net N00416
+    (property 
+     ("BiasValue Voltage" 348.7mV))
+   (pins
+     Q2-3
+    (property 
+     ("BiasValue Current" "-715.3fA"))
+     Q4-1
+    (property 
+     ("BiasValue Current" 259.5fA))
+     D9-1
+    (property 
+     (FLOAT UniqueNet))
+     D11-2
+    (property 
+     ("BiasValue Current" 41.74nA)
+     (FLOAT UniqueNet))
+     L3-1))
+  (net N00419
+    (property 
+     ("BiasValue Voltage" 348.7mV))
+   (pins
+     Q1-3
+    (property 
+     ("BiasValue Current" "-715.3fA"))
+     D8-1
+    (property 
+     (FLOAT UniqueNet))
+     D10-2
+    (property 
+     ("BiasValue Current" 41.74nA)
+     (FLOAT UniqueNet))
+     Q3-1
+    (property 
+     ("BiasValue Current" 259.5fA))
+     L3-2))
+  (net N00345
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     L4-1 R16-2 M2-1
+    (property 
+     ("BiasValue Current" 0A))))
+  (net N00304
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     M1-1
+    (property 
+     ("BiasValue Current" 0A))
+     R12-2 L2-2))
+  (net N00713
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     R5-1
+    (property 
+     ("BiasValue Current" 0A))
+     D4-2
+    (property 
+     ("BiasValue Current" 0A)
+     (FLOAT UniqueNet))
+     L7-1 D15-2
+    (property 
+     (FLOAT UniqueNet))))
+  (net N06568
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     D1-1 D2-1 R1-1
+    (property 
+     ("BiasValue Current" 0A))))
+  (net AC1
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     C1-1 R7-2 D1-2
+    (property 
+     ("BiasValue Current" 0A))
+     D5-1))
+  (net AC2
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     C1-2 R8-2 D6-1 D2-2
+    (property 
+     ("BiasValue Current" 0A))))
+  (net N021291
+   (pins
+     D13-2
+    (property 
+     ("BiasValue Current" 2.491pA))
+     D14-1))
+  (net N021270
+   (pins
+     U1-5
+    (property 
+     ("BiasValue Current" "-42.19nA")
+     (FLOAT Error))
+     R19-1
+    (property 
+     ("BiasValue Current" 42.19nA))))
+  (net N021311
+   (pins
+     D14-2
+    (property 
+     ("BiasValue Current" 2.491pA))
+     R26-2))
+  (net N014830
+   (pins
+     U1-3
+    (property 
+     ("BiasValue Current" "-42.55nA")
+     (FLOAT Error))
+     R11-1
+    (property 
+     ("BiasValue Current" 42.55nA))))
+  (net N02449
+    (property 
+     ("BiasValue Voltage" 63.56uV))
+   (pins
+     R19-2 R17-1 R27-2
+    (property 
+     ("BiasValue Current" 84.74nA))))
+  (net N02456
+    (property 
+     ("BiasValue Voltage" "-57.46uV"))
+   (pins
+     D13-1 R21-1 R20-2
+    (property 
+     ("BiasValue Current" 5.226nA))))
+  (net N01498
+    (property 
+     ("BiasValue Voltage" "-7.687mV"))
+   (pins
+     D7-2
+    (property 
+     ("BiasValue Current" 160.5pA))
+     D12-2 R39-2))
+  (net N02459
+    (property 
+     ("BiasValue Voltage" "-580.1uV"))
+   (pins
+     U1-6
+    (property 
+     ("BiasValue Current" "-47.68nA")
+     (FLOAT Error))
+     R20-1 R25-2
+    (property 
+     ("BiasValue Current" 52.90nA))))
+  (net N01504
+    (property 
+     ("BiasValue Voltage" "-9.571mV"))
+   (pins
+     D7-1 U1-1
+    (property 
+     ("BiasValue Current" 6.398uA)
+     (FLOAT Error))
+     R14-1 C8-1))
+  (net N01523
+    (property 
+     ("BiasValue Voltage" "-3.175mV"))
+   (pins
+     R14-2
+    (property 
+     ("BiasValue Current" 6.397uA))
+     C8-2 R15-2 U1-2
+    (property 
+     ("BiasValue Current" "-47.31nA")
+     (FLOAT Error))))
+  (net N02465
+    (property 
+     ("BiasValue Voltage" "-5.870mV"))
+   (pins
+     R25-1 U1-7
+    (property 
+     ("BiasValue Current" 56.09nA)
+     (FLOAT Error))
+     D12-1
+    (property 
+     ("BiasValue Current" 160.5pA))))
+  (net N00731
+    (property 
+     ("BiasValue Voltage" 1.000mV))
+   (pins
+     R4-1
+    (property 
+     ("BiasValue Current" 42.55nA))
+     R11-2 R41-2))
+  (net 0
+    (property 
+     (nettype S)
+     ("BiasValue Voltage" 0V))
+   (pins
+     U1-4
+    (property 
+     ("BiasValue Current" "-9.343uA")
+     (FLOAT Error))
+     R15-1
+    (property 
+     ("BiasValue Current" 6.349uA))
+     M2-3 L8-2 L5-1 R41-1 R27-1 R34-1
+    (property 
+     ("BiasValue Current" 0A))
+     R33-1
+    (property 
+     ("BiasValue Current" 0A))
+     D5-2
+    (property 
+     ("BiasValue Current" 0A))
+     D6-2
+    (property 
+     ("BiasValue Current" 0A))
+     R37-1 C19-1 C15-2 C17-2 R8-1
+    (property 
+     ("BiasValue Current" 0A))
+     R7-1
+    (property 
+     ("BiasValue Current" 0A))
+     R9-1
+    (property 
+     ("BiasValue Current" 0A))
+     R5-2 D10-1
+    (property 
+     (FLOAT UniqueNet))
+     Q3-2
+    (property 
+     ("BiasValue Current" "-397.2fA"))
+     R30-1
+    (property 
+     ("BiasValue Current" 5.223nA))
+     R26-1
+    (property 
+     ("BiasValue Current" 2.491pA))
+     Q4-2
+    (property 
+     ("BiasValue Current" "-397.2fA"))
+     L4-2 U4-10 U4-12 C21-2 C22-2 D11-1
+    (property 
+     (FLOAT UniqueNet))
+     C23-2 R43-2 R42-2 C25-1 C26-1))
+  (net +15V
+    (property 
+     (nettype S)
+     ("BiasValue Voltage" 697.4mV))
+   (pins
+     U1-8
+    (property 
+     ("BiasValue Current" 9.469uA)
+     (FLOAT Error))
+     Q1-2
+    (property 
+     ("BiasValue Current" 853.0fA))
+     D8-2
+    (property 
+     ("BiasValue Current" 41.74nA)
+     (FLOAT UniqueNet))
+     Q2-2
+    (property 
+     ("BiasValue Current" 853.0fA))
+     U4-15 C17-1 D9-2
+    (property 
+     ("BiasValue Current" 41.74nA)
+     (FLOAT UniqueNet))
+     U4-13 C26-2))
+  (net N00081
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     M1-2
+    (property 
+     ("BiasValue Current" 0A))
+     R2-2 R1-2 C6-1))
+  (net N00085
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     M1-3 M2-2
+    (property 
+     ("BiasValue Current" 0A))
+     C3-1 L2-1 C24-1))
+  (net DCOUT
+    (property 
+     ("BiasValue Voltage" 1.000mV))
+   (pins
+     C23-1 R17-2
+    (property 
+     ("BiasValue Current" 42.55nA))
+     R4-2 L7-2))
+  (net N00073
+    (property 
+     ("BiasValue Voltage" 0V))
+   (pins
+     C15-1 R2-1
+    (property 
+     ("BiasValue Current" 0A))
+     R9-2 R3-1
+    (property 
+     ("BiasValue Current" 0A))
+     L6-2 C6-2))
+  (net VR
+    (property 
+     (nettype S)
+     ("BiasValue Voltage" "-5.223uV"))
+   (pins
+     R21-2
+    (property 
+     ("BiasValue Current" 5.223nA))
+     R30-2 R35-2 U4-16 R40-1 C21-1))
+  (net N00442
+   (pins
+     Q2-1
+    (property 
+     ("BiasValue Current" "-137.7fA"))
+     Q4-3
+    (property 
+     ("BiasValue Current" 137.7fA))
+     U4-14))
+  (net N00451
+   (pins
+     Q1-1
+    (property 
+     ("BiasValue Current" "-137.7fA"))
+     Q3-3
+    (property 
+     ("BiasValue Current" 137.7fA))
+     U4-11))
+  (net N144490
+   (pins
+     R36-2 U4-7
+    (property 
+     (FLOAT Unmodeled))))
+  (net N1624810
+   (pins
+     R40-2 U4-4))
+  (net N25137
+   (pins
+     L5-2 R42-1 D15-1
+    (property 
+     (FLOAT UniqueNet))))
+  (net N25131
+   (pins
+     L6-1 R3-2 C3-2))
+  (net N01401
+   (pins
+     R34-2 R38-2 U4-1 R39-1))
+  (net N25143
+   (pins
+     L8-1 R43-1 D4-1
+    (property 
+     ("BiasValue Current" 0A)
+     (FLOAT UniqueNet))))
+  (net N14714
+   (pins
+     R35-1 U4-2 R33-2))
+  (net N14733
+   (pins
+     U4-9 R38-1))
+  (net N14454
+   (pins
+     U4-6
+    (property 
+     (FLOAT Unmodeled))
+     R37-2))
+  (net N14590
+   (pins
+     U4-5 R36-1 C19-2))
+  (net N1624811
+   (pins
+     C22-1 U4-8)))
+)

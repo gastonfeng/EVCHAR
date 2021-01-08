@@ -1,0 +1,121 @@
+(ExpressProject "trans"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\magnetic.olb"
+        (Type "Schematic Library"))
+      (File "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library"))
+      (File "d:\my_lib\orcad.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}"))
+  (Folder "Outputs"
+    (File ".\trans-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\trans-schematic1-11.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\trans-schematic1-11.sim"
+        (DisplayName "SCHEMATIC1-11")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "D:\my_lib\orcad.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "D:\my_lib\orcad.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (K1041T060_3B7
+      (FullPartName "K1041T060_3B7.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\MAGNETIC.OLB")
+      (DeviceIndex "0"))
+    (kbreak
+      (FullPartName "kbreak.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (K_Linear
+      (FullPartName "K_Linear.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (EI33
+      (FullPartName "EI33.Normal")
+      (LibraryName "D:\MY_LIB\ORCAD.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (TRANSFORMER
+      (FullPartName "TRANSFORMER.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (KRM8PL_3C8
+      (FullPartName "KRM8PL_3C8.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\MAGNETIC.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Program Files\OrCAD\CAPTURE\LIBRARY\PSPICE")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\product\EVCHR\sim\trans.dsn")
+      (Path "Design Resources" "d:\product\EVCHR\sim\trans.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "d:\product\EVCHR\sim\trans.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\analog.olb")
+      (Path "Design Resources" "Library" "d:\my_lib\orcad.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" "Library"
+         "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\analog.olb" "K_Linear"))
+    (HierarchyView
+      (Path "SCHEMATIC1")
+      (Select "SCHEMATIC1" "K1 (`M)"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 430"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 870 44 493")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PRODUCT\EVCHR\SIM\TRANS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

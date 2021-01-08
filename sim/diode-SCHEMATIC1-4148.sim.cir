@@ -1,0 +1,18 @@
+** circuit file for profile: 4148 
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP -10 50 1 
+.PROBE 
+.INC "diode-SCHEMATIC1.net" 
+
+.INC "diode-SCHEMATIC1.als"
+
+
+.END

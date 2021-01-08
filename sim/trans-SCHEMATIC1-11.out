@@ -1,0 +1,89 @@
+
+**** 01/14/01 02:08:11 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: 11 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+.LIB "D:\my_lib\orcad.lib" 
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 500u 0 
+.PROBE 
+.INC "trans-SCHEMATIC1.net" 
+
+
+**** INCLUDING trans-SCHEMATIC1.net ****
+* source TRANS
+V_V1         N00039 0  
++SIN 0 10 10kHz 0 0 0
+R_R1         0 N00047  1k  
+Kn_K2         L_L1 L_L2     1 
+L_L1         N00093 0  10mH  
+R_R2         N00039 N00093  1  
+L_L2         0 N00047  10mH  
+
+**** RESUMING trans-schematic1-11.sim.cir ****
+.INC "trans-SCHEMATIC1.als"
+
+
+
+**** INCLUDING trans-SCHEMATIC1.als ****
+.ALIASES
+V_V1            V1(+=N00039 -=0 )
+R_R1            R1(1=0 2=N00047 )
+Kn_K2            K2()
+L_L1            L1(1=N00093 2=0 )
+R_R2            R2(1=N00039 2=N00093 )
+L_L2            L2(1=0 2=N00047 )
+.ENDALIASES
+
+**** RESUMING trans-schematic1-11.sim.cir ****
+.END
+
+**** 01/14/01 02:08:11 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: 11 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00039)    0.0000 (N00047)    0.0000 (N00093)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .18
+

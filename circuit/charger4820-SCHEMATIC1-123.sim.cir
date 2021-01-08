@@ -1,0 +1,27 @@
+** circuit file for profile: 123 
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 200u  0 
+.OPTIONS NOPRBMSG
+.OPTIONS DEFAD= 0.1
+.OPTIONS DEFAS= 0.1
+.OPTIONS DEFL= 1000.00u
+.OPTIONS DEFW= 1000.00u
+.OPTIONS DIGMNTYMX= 1
+.OPTIONS ITL1= 100
+.OPTIONS ITL2= 40
+.OPTIONS ITL4= 500
+.PROBE 
+.INC "charger4820-SCHEMATIC1.net" 
+
+.INC "charger4820-SCHEMATIC1.als"
+
+
+.END

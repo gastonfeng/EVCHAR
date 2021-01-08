@@ -1,0 +1,36 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\product\EVCHR\circuit\design1.dsn")
+      (Path "Design Resources" "d:\product\EVCHR\circuit\design1.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView
+      (Path "SCHEMATIC1"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 422"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 914 110 567")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "d:\product\EVCHR\circuit\Design1.dsn")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

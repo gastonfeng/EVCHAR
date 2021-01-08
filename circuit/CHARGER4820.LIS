@@ -1,0 +1,221 @@
+AutoECO Report
+FILE-A: D:\PRODUCT\EVCHR\CIRCUIT\CHARGER4820.MAX
+FILE-B: D:\PRODUCT\EVCHR\CIRCUIT\CHARGER4820.MNL
+If "*EOF*" immediately follows, no changes were made
+Warning: Unable to find footprint RC05 for comp R35.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L8.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L5.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R41.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L2.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C17.  Will try part name.
+Warning: Unable to find footprint P1G for comp R26.  Will try part name.
+Warning: Unable to find footprint P1G for comp R27.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C23.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L4.  Will try part name.
+Warning: Unable to find footprint DO-35 for comp D12.  Will try part name.
+Adding footprint DIP.100/8/W.300/L.450
+Warning: Unable to find footprint DO-35 for comp D7.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R11.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R14.  Will try part name.
+Warning: Unable to find footprint P26702 for comp D5.  Will try part name.
+Warning: Unable to find footprint P1G for comp R15.  Will try part name.
+Adding footprint TO218AA
+Warning: Unable to find footprint RC05 for comp R39.  Will try part name.
+Warning: Unable to find footprint D-67 for comp D15.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R5.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C6.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R16.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C21.  Will try part name.
+Adding footprint DIP.100/16/W.300/L.900
+Warning: Unable to find footprint RC05 for comp R2.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R9.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R34.  Will try part name.
+Warning: Unable to find footprint P26702 for comp D2.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C15.  Will try part name.
+Adding footprint TO226AB
+Warning: Unable to find footprint P26702 for comp D1.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R7.  Will try part name.
+Warning: Unable to find footprint 2-21F2A for comp Q1.  Will try part name.
+Warning: Unable to find footprint 2-21F2A for comp Q2.  Will try part name.
+Warning: Unable to find footprint DO-7 for comp D8.  Will try part name.
+Warning: Unable to find footprint DO-7 for comp D10.  Will try part name.
+Warning: Unable to find footprint DO-7 for comp D11.  Will try part name.
+Warning: Unable to find footprint DO-7 for comp D9.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R3.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L6.  Will try part name.
+Warning: Unable to find footprint P26702 for comp D6.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R12.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R40.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R8.  Will try part name.
+Warning: Unable to find footprint DO-35 for comp D13.  Will try part name.
+Warning: Unable to find footprint DO-35 for comp D14.  Will try part name.
+Warning: Unable to find footprint PLP3970SMD/AA for comp C22.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R20.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R19.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L3.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R25.  Will try part name.
+Warning: Unable to find footprint D-67 for comp D4.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R42.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R30.  Will try part name.
+Warning: Unable to find footprint L2012C for comp L7.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R43.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R1.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R37.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R36.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R21.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R38.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R33.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R4.  Will try part name.
+Warning: Unable to find footprint RC05 for comp R17.  Will try part name.
+Adding package C
+Adding package R
+Adding package L
+Adding package C_ELECT
+Adding package R_VAR
+Adding package D1N4148
+Adding package LM358
+Adding package D1N5404
+Adding package IRFP460
+Adding package 120NQ045
+Adding package SG1525
+Adding package 2SA1020
+Adding package 2SC4760
+Adding package 1N4376
+Adding component C25
+Adding component R35
+ERROR: No footprint found for comp R35
+Adding component L8
+ERROR: No footprint found for comp L8
+Adding component C1
+Adding component L5
+ERROR: No footprint found for comp L5
+Adding component R41
+ERROR: No footprint found for comp R41
+Adding component L2
+ERROR: No footprint found for comp L2
+Adding component C17
+ERROR: No footprint found for comp C17
+Adding component R26
+ERROR: No footprint found for comp R26
+Adding component R27
+ERROR: No footprint found for comp R27
+Adding component C23
+ERROR: No footprint found for comp C23
+Adding component L4
+ERROR: No footprint found for comp L4
+Adding component D12
+ERROR: No footprint found for comp D12
+Adding component U1
+Adding component D7
+ERROR: No footprint found for comp D7
+Adding component R11
+ERROR: No footprint found for comp R11
+Adding component R14
+ERROR: No footprint found for comp R14
+Adding component D5
+ERROR: No footprint found for comp D5
+Adding component R15
+ERROR: No footprint found for comp R15
+Adding component M1
+Adding component C8
+Adding component M2
+Adding component R39
+ERROR: No footprint found for comp R39
+Adding component D15
+ERROR: No footprint found for comp D15
+Adding component R5
+ERROR: No footprint found for comp R5
+Adding component C6
+ERROR: No footprint found for comp C6
+Adding component R16
+ERROR: No footprint found for comp R16
+Adding component C21
+ERROR: No footprint found for comp C21
+Adding component C3
+Adding component C26
+Adding component U4
+Adding component R2
+ERROR: No footprint found for comp R2
+Adding component R9
+ERROR: No footprint found for comp R9
+Adding component R34
+ERROR: No footprint found for comp R34
+Adding component D2
+ERROR: No footprint found for comp D2
+Adding component C15
+ERROR: No footprint found for comp C15
+Adding component Q3
+Adding component D1
+ERROR: No footprint found for comp D1
+Adding component R7
+ERROR: No footprint found for comp R7
+Adding component Q4
+Adding component Q1
+ERROR: No footprint found for comp Q1
+Adding component Q2
+ERROR: No footprint found for comp Q2
+Adding component D8
+ERROR: No footprint found for comp D8
+Adding component D10
+ERROR: No footprint found for comp D10
+Adding component D11
+ERROR: No footprint found for comp D11
+Adding component D9
+ERROR: No footprint found for comp D9
+Adding component R3
+ERROR: No footprint found for comp R3
+Adding component L6
+ERROR: No footprint found for comp L6
+Adding component C24
+Adding component D6
+ERROR: No footprint found for comp D6
+Adding component R12
+ERROR: No footprint found for comp R12
+Adding component R40
+ERROR: No footprint found for comp R40
+Adding component R8
+ERROR: No footprint found for comp R8
+Adding component D13
+ERROR: No footprint found for comp D13
+Adding component D14
+ERROR: No footprint found for comp D14
+Adding component C22
+ERROR: No footprint found for comp C22
+Adding component R20
+ERROR: No footprint found for comp R20
+Adding component R19
+ERROR: No footprint found for comp R19
+Adding component L3
+ERROR: No footprint found for comp L3
+Adding component R25
+ERROR: No footprint found for comp R25
+Adding component D4
+ERROR: No footprint found for comp D4
+Adding component R42
+ERROR: No footprint found for comp R42
+Adding component R30
+ERROR: No footprint found for comp R30
+Adding component C19
+Adding component L7
+ERROR: No footprint found for comp L7
+Adding component R43
+ERROR: No footprint found for comp R43
+Adding component R1
+ERROR: No footprint found for comp R1
+Adding component R37
+ERROR: No footprint found for comp R37
+Adding component R36
+ERROR: No footprint found for comp R36
+Adding component R21
+ERROR: No footprint found for comp R21
+Adding component R38
+ERROR: No footprint found for comp R38
+Adding component R33
+ERROR: No footprint found for comp R33
+Adding component R4
+ERROR: No footprint found for comp R4
+Adding component R17
+ERROR: No footprint found for comp R17
+*EOF*
+Unable to complete ECO due to errors
+61 errors found

@@ -1,0 +1,18 @@
+** circuit file for profile: voldrop 
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ms 0 
+.PROBE 
+.INC "refil-SCHEMATIC1.net" 
+
+.INC "refil-SCHEMATIC1.als"
+
+
+.END

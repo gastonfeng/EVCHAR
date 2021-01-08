@@ -1,0 +1,127 @@
+@OrCAD Simulation Server Version: 1.0
+
+@Settings: 0 1
+@General:
+ProfileName= "123" 
+ProfileFile= "charger4820-schematic1-123.sim" 
+DesignFile= "charger4820.dsn" 0 
+ProjectFile= "charger4820.opj" 
+NetlistFile= "charger4820-schematic1-123.sim.cir" 
+RootSchematics= "SCHEMATIC1" 
+DataFile= "charger4820-SCHEMATIC1-123.dat" 
+OutFile= "charger4820-SCHEMATIC1-123.out" 
+Notes=
+@#$BEGINNOTES
+@#$ENDNOTES
+@End General
+@Analysis: 0 1
++0 0 0 
++0 "200u" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
++6 "" 
+@End Analysis
+@Analysis: 1 0
++2 0
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
+@End Analysis
+@Analysis: 2 0
++0 0
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
++6 "" 
++7 "" 
+@End Analysis
+@Analysis: 3 0
++0 0 0
++0 "" 
++1 "" 
++2 "" 
+@End Analysis
+@Analysis: 4 0
++0 0 0 0 0 0 0 0 
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
++6 "" 
++7 "" 
+@End Analysis
+@Analysis: 5 0
++0 0
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
++6 "" 
++7 "" 
+@End Analysis
+@Analysis: 6 0
++1 
++0 "" 
+@End Analysis
+@Analysis: 7 0
++0 0
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
+@End Analysis
+@Analysis: 8 0
++0 
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
+@End Analysis
+@Analysis: 9 0
++0 "" 
+@End Analysis
+@Analysis: 10 0
++0 0
++0 "" 
++1 "" 
++2 "" 
++3 "" 
++4 "" 
++5 "" 
++6 "" 
++7 "" 
+@End Analysis
+@Analysis: 11 1
++ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
++ DEFAD "0.1"
++ DEFAS "0.1"
++ DEFL "1000.00u"
++ DEFW "1000.00u"
++ DIGMNTYMX "1"
++ ITL1 "100"
++ ITL2 "40"
++ ITL4 "500"
+@End Analysis
+@Analysis: 12 0
++0 0
+@End Analysis
+@Analysis: 13 1
++0 1 1 0
+@End Analysis

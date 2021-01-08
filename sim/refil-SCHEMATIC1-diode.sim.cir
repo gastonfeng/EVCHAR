@@ -1,0 +1,19 @@
+** circuit file for profile: diode 
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP -10 40 1 
+.TEMP 25
+.PROBE 
+.INC "refil-SCHEMATIC1.net" 
+
+.INC "refil-SCHEMATIC1.als"
+
+
+.END

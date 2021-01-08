@@ -1,0 +1,118 @@
+
+**** 12/13/00 22:27:13 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: voldrop 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ms 0 
+.PROBE 
+.INC "refil-SCHEMATIC1.net" 
+
+
+**** INCLUDING refil-SCHEMATIC1.net ****
+* source REFIL
+D_D1         N00095 OUT D1N5404 
+D_D2         0 N00095 D1N5404 
+D_D3         N00062 OUT D1N5404 
+D_D4         0 N00062 D1N5404 
+C_C1         N00133 OUT  2000u  
+R_R1         0 OUT  39  
+V_V1         N00062 N00095  
++SIN 0 226 50Hz 0 0 0
+C_C2         0 N00133  2000u  
+R_R2         0 N00133  1000k  
+
+**** RESUMING refil-SCHEMATIC1-voldrop.sim.cir ****
+.INC "refil-SCHEMATIC1.als"
+
+
+
+**** INCLUDING refil-SCHEMATIC1.als ****
+.ALIASES
+D_D1            D1(1=N00095 2=OUT )
+D_D2            D2(1=0 2=N00095 )
+D_D3            D3(1=N00062 2=OUT )
+D_D4            D4(1=0 2=N00062 )
+C_C1            C1(1=N00133 2=OUT )
+R_R1            R1(1=0 2=OUT )
+V_V1            V1(+=N00062 -=N00095 )
+C_C2            C2(1=0 2=N00133 )
+R_R2            R2(1=0 2=N00133 )
+_    _(out=OUT)
+.ENDALIASES
+
+**** RESUMING refil-SCHEMATIC1-voldrop.sim.cir ****
+.END
+
+**** 12/13/00 22:27:13 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: voldrop 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N5404         
+          IS   11.500000E-15 
+         ISR   47.190000E-06 
+         IKF    3.87         
+          RS    8.254000E-03 
+         CJO  130.400000E-12 
+          VJ     .75         
+           M     .3758       
+
+
+**** 12/13/00 22:27:13 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: voldrop 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT) 143.9E-21  (N00062) 3.479E-18 (N00095) 3.479E-18 (N00133)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .40
+

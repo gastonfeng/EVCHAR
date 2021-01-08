@@ -1,0 +1,72 @@
+
+**** 01/10/01 18:31:55 ********* PSpice 9.1 (Mar 1999) ******** ID# 0 ********
+
+ ** circuit file for profile: diode 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT PROFILES
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspice91.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP -10 40 1 
+.TEMP 25
+.PROBE 
+.INC "refil-SCHEMATIC1.net" 
+
+
+**** INCLUDING refil-SCHEMATIC1.net ****
+* source REFIL
+D_D1         N00095 OUT D1N5404 
+D_D2         0 N00095 D1N5404 
+D_D3         N00062 OUT D1N5404 
+D_D4         0 N00062 D1N5404 
+C_C1         N00133 OUT  2000u  
+R_R1         0 OUT  39  
+V_V1         N00062 N00095  
++SIN 0 226 50Hz 0 0 0
+D_D5         DV 0 D1N4148 
+R_R3         DV N00329  5.1k  
+V_V2         N00329 0 5Vdc
+C_C2         0 N00133  2000u  
+R_R2         0 N00133  1000k  
+
+**** RESUMING refil-SCHEMATIC1-diode.sim.cir ****
+.INC "refil-SCHEMATIC1.als"
+
+
+
+**** INCLUDING refil-SCHEMATIC1.als ****
+.ALIASES
+D_D1            D1(1=N00095 2=OUT )
+D_D2            D2(1=0 2=N00095 )
+D_D3            D3(1=N00062 2=OUT )
+D_D4            D4(1=0 2=N00062 )
+C_C1            C1(1=N00133 2=OUT )
+R_R1            R1(1=0 2=OUT )
+V_V1            V1(+=N00062 -=N00095 )
+D_D5            D5(1=DV 2=0 )
+R_R3            R3(1=DV 2=N00329 )
+V_V2            V2(+=N00329 -=0 )
+C_C2            C2(1=0 2=N00133 )
+R_R2            R2(1=0 2=N00133 )
+_    _(out=OUT)
+_    _(DV=DV)
+.ENDALIASES
+
+**** RESUMING refil-SCHEMATIC1-diode.sim.cir ****
+.END
+
+
+ERROR -- Only one .TEMP, .DC TEMP, or .STEP TEMP permitted

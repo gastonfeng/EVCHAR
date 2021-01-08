@@ -1,0 +1,178 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict D15,K Output Connected to Output
+                    SCHEMATIC1, SIMPAGE  (162.56, 55.88) 
+ERROR:  [DRC0004]  Possible pin type conflict D8,K Output Connected to Power
+                    SCHEMATIC1, SIMPAGE  (30.48, 88.90) 
+ERROR:  [DRC0004]  Possible pin type conflict D9,K Output Connected to Output
+                    SCHEMATIC1, SIMPAGE  (50.80, 88.90) 
+ERROR:  [DRC0004]  Possible pin type conflict D9,K Output Connected to Power
+                    SCHEMATIC1, SIMPAGE  (50.80, 88.90) 
+
+Checking for Unconnected Nets
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC2
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict D8,K Output Connected to Power
+                    SCHEMATIC2, SHEETPAGE  (35.56, 93.98) 
+ERROR:  [DRC0004]  Possible pin type conflict D9,K Output Connected to Output
+                    SCHEMATIC2, SHEETPAGE  (55.88, 93.98) 
+ERROR:  [DRC0004]  Possible pin type conflict D9,K Output Connected to Power
+                    SCHEMATIC2, SHEETPAGE  (55.88, 93.98) 
+ERROR:  [DRC0004]  Possible pin type conflict U5,OUT Output Connected to Output
+                    SCHEMATIC2, SHEETPAGE  (193.04, 185.42) 
+ERROR:  [DRC0004]  Possible pin type conflict U5,OUT Output Connected to Power
+                    SCHEMATIC2, SHEETPAGE  (193.04, 185.42) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections N16529
+                    SCHEMATIC2, SHEETPAGE  (104.14, 152.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections N30103
+                    SCHEMATIC2, SHEETPAGE  (25.40, 60.96) 
+WARNING:  [DRC0006]  Net has fewer than two connections N30119
+                    SCHEMATIC2, SHEETPAGE  (25.40, 71.12) 
+
+Checking for Invalid References
+ERROR:  [DRC0027]  Other parts in this package have different values or PCB footprints. R38
+                    SCHEMATIC2, SHEETPAGE  (96.52, 182.88) 
+ERROR:  [DRC0027]  Other parts in this package have different values or PCB footprints. C22
+                    SCHEMATIC2, SHEETPAGE  (91.44, 167.64) 
+
+Checking for Duplicate References
+[DRC0010]  Duplicate reference C19
+                    SCHEMATIC2, SHEETPAGE  (78.74, 185.42) 
+[DRC0010]  Duplicate reference D2
+                    SCHEMATIC2, SHEETPAGE  (76.20, 53.34) 
+[DRC0010]  Duplicate reference R37
+                    SCHEMATIC2, SHEETPAGE  (81.28, 182.88) 
+[DRC0010]  Duplicate reference K2
+                    SCHEMATIC2, SHEETPAGE  (139.70, 45.72) 
+[DRC0010]  Duplicate reference C1
+                    SCHEMATIC2, SHEETPAGE  (43.18, 66.04) 
+[DRC0010]  Duplicate reference R36
+                    SCHEMATIC2, SHEETPAGE  (88.90, 170.18) 
+[DRC0010]  Duplicate reference U1
+                    SCHEMATIC2, SHEETPAGE  (167.64, 132.08) 
+[DRC0010]  Duplicate reference D13
+                    SCHEMATIC2, SHEETPAGE  (195.58, 147.32) 
+[DRC0010]  Duplicate reference K1
+                    SCHEMATIC2, SHEETPAGE  (55.88, 83.82) 
+[DRC0010]  Duplicate reference R38
+                    SCHEMATIC2, SHEETPAGE  (96.52, 182.88) 
+[DRC0010]  Duplicate reference D14
+                    SCHEMATIC2, SHEETPAGE  (195.58, 154.94) 
+[DRC0010]  Duplicate reference R33
+                    SCHEMATIC2, SHEETPAGE  (58.42, 193.04) 
+[DRC0010]  Duplicate reference M1
+                    SCHEMATIC2, SHEETPAGE  (109.22, 50.80) 
+[DRC0010]  Duplicate reference R41
+                    SCHEMATIC2, SHEETPAGE  (193.04, 68.58) 
+[DRC0010]  Duplicate reference C25
+                    SCHEMATIC2, SHEETPAGE  (101.60, 129.54) 
+[DRC0010]  Duplicate reference M2
+                    SCHEMATIC2, SHEETPAGE  (109.22, 73.66) 
+[DRC0010]  Duplicate reference R20
+                    SCHEMATIC2, SHEETPAGE  (187.96, 142.24) 
+[DRC0010]  Duplicate reference R21
+                    SCHEMATIC2, SHEETPAGE  (200.66, 142.24) 
+[DRC0010]  Duplicate reference R19
+                    SCHEMATIC2, SHEETPAGE  (187.96, 132.08) 
+[DRC0010]  Duplicate reference R26
+                    SCHEMATIC2, SHEETPAGE  (195.58, 162.56) 
+[DRC0010]  Duplicate reference R25
+                    SCHEMATIC2, SHEETPAGE  (172.72, 154.94) 
+[DRC0010]  Duplicate reference R27
+                    SCHEMATIC2, SHEETPAGE  (210.82, 162.56) 
+[DRC0010]  Duplicate reference L8
+                    SCHEMATIC2, SHEETPAGE  (152.40, 66.04) 
+[DRC0010]  Duplicate reference L5
+                    SCHEMATIC2, SHEETPAGE  (152.40, 50.80) 
+[DRC0010]  Duplicate reference D12
+                    SCHEMATIC2, SHEETPAGE  (144.78, 137.16) 
+[DRC0010]  Duplicate reference R12
+                    SCHEMATIC2, SHEETPAGE  (96.52, 101.60) 
+[DRC0010]  Duplicate reference R17
+                    SCHEMATIC2, SHEETPAGE  (210.82, 127.00) 
+[DRC0010]  Duplicate reference C15
+                    SCHEMATIC2, SHEETPAGE  (91.44, 76.20) 
+[DRC0010]  Duplicate reference C26
+                    SCHEMATIC2, SHEETPAGE  (63.50, 177.80) 
+[DRC0010]  Duplicate reference L7
+                    SCHEMATIC2, SHEETPAGE  (177.80, 58.42) 
+[DRC0010]  Duplicate reference C17
+                    SCHEMATIC2, SHEETPAGE  (195.58, 187.96) 
+[DRC0010]  Duplicate reference D1
+                    SCHEMATIC2, SHEETPAGE  (68.58, 53.34) 
+[DRC0010]  Duplicate reference D5
+                    SCHEMATIC2, SHEETPAGE  (68.58, 78.74) 
+[DRC0010]  Duplicate reference C24
+                    SCHEMATIC2, SHEETPAGE  (93.98, 106.68) 
+[DRC0010]  Duplicate reference D6
+                    SCHEMATIC2, SHEETPAGE  (76.20, 78.74) 
+[DRC0010]  Duplicate reference L6
+                    SCHEMATIC2, SHEETPAGE  (139.70, 58.42) 
+[DRC0010]  Duplicate reference R16
+                    SCHEMATIC2, SHEETPAGE  (104.14, 124.46) 
+[DRC0010]  Duplicate reference R35
+                    SCHEMATIC2, SHEETPAGE  (58.42, 160.02) 
+[DRC0010]  Duplicate reference R1
+                    SCHEMATIC2, SHEETPAGE  (86.36, 48.26) 
+[DRC0010]  Duplicate reference L2
+                    SCHEMATIC2, SHEETPAGE  (73.66, 96.52) 
+[DRC0010]  Duplicate reference U1
+                    SCHEMATIC2, SHEETPAGE  (167.64, 86.36) 
+[DRC0010]  Duplicate reference D7
+                    SCHEMATIC2, SHEETPAGE  (142.24, 91.44) 
+[DRC0010]  Duplicate reference C22
+                    SCHEMATIC2, SHEETPAGE  (91.44, 167.64) 
+[DRC0010]  Duplicate reference R11
+                    SCHEMATIC2, SHEETPAGE  (187.96, 86.36) 
+[DRC0010]  Duplicate reference R14
+                    SCHEMATIC2, SHEETPAGE  (172.72, 111.76) 
+[DRC0010]  Duplicate reference C6
+                    SCHEMATIC2, SHEETPAGE  (91.44, 50.80) 
+[DRC0010]  Duplicate reference Q3
+                    SCHEMATIC2, SHEETPAGE  (27.94, 127.00) 
+[DRC0010]  Duplicate reference L4
+                    SCHEMATIC2, SHEETPAGE  (73.66, 114.30) 
+[DRC0010]  Duplicate reference R15
+                    SCHEMATIC2, SHEETPAGE  (182.88, 116.84) 
+[DRC0010]  Duplicate reference Q4
+                    SCHEMATIC2, SHEETPAGE  (43.18, 127.00) 
+[DRC0010]  Duplicate reference C8
+                    SCHEMATIC2, SHEETPAGE  (175.26, 119.38) 
+[DRC0010]  Duplicate reference Q1
+                    SCHEMATIC2, SHEETPAGE  (27.94, 96.52) 
+[DRC0010]  Duplicate reference Q2
+                    SCHEMATIC2, SHEETPAGE  (43.18, 96.52) 
+[DRC0010]  Duplicate reference C21
+                    SCHEMATIC2, SHEETPAGE  (53.34, 175.26) 
+[DRC0010]  Duplicate reference D8
+                    SCHEMATIC2, SHEETPAGE  (33.02, 96.52) 
+[DRC0010]  Duplicate reference U4
+                    SCHEMATIC2, SHEETPAGE  (71.12, 149.86) 
+[DRC0010]  Duplicate reference C3
+                    SCHEMATIC2, SHEETPAGE  (129.54, 58.42) 
+[DRC0010]  Duplicate reference R39
+                    SCHEMATIC2, SHEETPAGE  (116.84, 147.32) 
+[DRC0010]  Duplicate reference D10
+                    SCHEMATIC2, SHEETPAGE  (33.02, 132.08) 
+[DRC0010]  Duplicate reference C23
+                    SCHEMATIC2, SHEETPAGE  (187.96, 60.96) 
+[DRC0010]  Duplicate reference D11
+                    SCHEMATIC2, SHEETPAGE  (53.34, 132.08) 
+[DRC0010]  Duplicate reference D9
+                    SCHEMATIC2, SHEETPAGE  (53.34, 96.52) 
+[DRC0010]  Duplicate reference L3
+                    SCHEMATIC2, SHEETPAGE  (60.96, 109.22) 

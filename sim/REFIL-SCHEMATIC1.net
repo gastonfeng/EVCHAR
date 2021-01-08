@@ -1,0 +1,14 @@
+* source REFIL
+D_D1         N00095 OUT D1N5404 
+D_D2         0 N00095 D1N5404 
+D_D3         N00062 OUT D1N5404 
+D_D4         0 N00062 D1N5404 
+C_C1         N00133 OUT  2000u  
+R_R1         0 OUT  39  
+V_V1         N00062 N00095  
++SIN 0 226 50Hz 0 0 0
+D_D5         DV 0 D1N4148 
+R_R3         DV N00329  5.1k  
+V_V2         N00329 0 5Vdc
+C_C2         0 N00133  2000u  
+R_R2         0 N00133  1000k  
